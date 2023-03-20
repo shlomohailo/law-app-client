@@ -1,0 +1,13 @@
+.h1MainHeadLine {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5%;
+  margin-top: 5%;
+}
+
+@media screen and (max-width: 600px) {
+  .rowSubServices {
+    display: flex;
+    justify-content: center;
+  }
+}

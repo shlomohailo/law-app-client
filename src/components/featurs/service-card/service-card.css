@@ -1,0 +1,25 @@
+.serviceCard {
+  --bs-card-border-color: none !important;
+  --bs-card-border-radius: 0.375rem;
+  --bs-card-box-shadow: none !important;
+  --bs-card-inner-border-radius: none !important;
+}
+.serviceCard:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  z-index: 10;
+}
+
+
+.serviceCard:hover > .serviceCard:not(:hover) {
+  opacity: 0.5;
+}
+@media screen and (max-width: 600px) {
+  .serviceCard {
+    width: 75%;
+  }
+  .cardLink{
+    display: flex;
+    justify-content: center;
+  }
+}

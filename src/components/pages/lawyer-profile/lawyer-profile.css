@@ -1,0 +1,82 @@
+.section2{
+    width: 90%;
+    border-top: 1px rgba(0, 0, 0, 0.207) solid;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.207);
+    margin-top: 6% !important;
+}
+.card-container{
+    width:100%;
+    height: 100%;
+    position:relative;
+    border: 1px rgba(0, 0, 0, 0.207) solid;
+}
+.profileDetails p{
+    margin-bottom: -1%;
+}
+
+.cardDetailSection3{
+    margin-bottom: -3%;
+}
+
+.backgorundProfileImg{
+    width:100%;
+    height: 17vh;
+}
+
+.titleProfile{
+    width: 100%;
+}
+
+.profileFace{
+    width: 20%;
+    height:20%;
+    border-radius: 50%;
+}
+
+.titleProfile{
+    position:absolute;
+    top: 80px;
+    left: 20px;
+}
+
+.divcut{
+    width: 100%;
+    border-top: 1px rgba(0, 0, 0, 0.207) solid;
+}
+
+.secondCol{
+    width:60%;
+}
+
+#userCommentFace{
+    font-size:2.5rem;
+}
+
+#star{
+    color:#eec606
+}
+
+.btnClass{
+    margin-right: 3rem !important;
+}
+
+.textSize{
+    font-size: 0.7rem!important;
+}
+
+@media  screen and (max-width: 600px) {
+    .btnClass{
+        margin-top: 20px !important;
+        left: 40px !important;
+    }
+    .secondCol{
+        width:100%;
+    }
+    .cardToCenter{
+        display:flex;
+        justify-content: center;
+    }
+    .secondCol{
+        margin-top: 130vw;
+    }
+}

@@ -1,0 +1,19 @@
+.profileImgCard{
+    border-radius: 50%;
+    border: 1px solid black;
+    width: 25%;
+    height: 13vh;
+}
+
+.topLawyerCard{
+    width: 100%;
+    height: 45vh;
+}
+.text-card{
+    width: 100%;
+}
+@media  screen and (max-width: 600px) {
+    .topLawyerCard{
+        margin-left: 13%;
+    }
+}

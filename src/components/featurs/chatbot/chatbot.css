@@ -1,0 +1,29 @@
+.rsc{
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: flex-end;
+    top:660px!important;
+    left:1170px;
+    position:fixed;
+    transition: 1s;
+}
+/* top:630px!important;
+left:912px; */
+/* .rsc:hover{
+    top:170px!important;
+} */
+
+.rsc:hover{
+    top:195px!important;
+}
+
+@media screen and (max-width: 600px) {
+    .rsc{
+        top: 812px !important;
+        left:310px !important;
+    }
+    .rsc:hover{
+        top:355px!important;
+        left: 115px !important;
+    }
+}

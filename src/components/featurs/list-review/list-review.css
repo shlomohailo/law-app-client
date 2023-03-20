@@ -1,0 +1,16 @@
+.listReview {
+  border-top: solid 1px rgba(0, 0, 0, 0.146);
+}
+
+.listReviewImg {
+  width: 35%;
+}
+
+
+@media screen and (max-width: 600px) {
+  .rowListReview div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

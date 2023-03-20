@@ -1,0 +1,16 @@
+.lawyerProfile {
+    border: 1px solid rgba(139, 139, 139, 0.363);
+}
+.imgProfile {
+  width: 30%;
+  border-radius: 50%;
+}
+
+.lawyerNameHandle {
+  width: 100%;
+}
+
+.borderDiv {
+  width: 100%;
+  border-bottom: 1px solid rgba(139, 139, 139, 0.363);
+}

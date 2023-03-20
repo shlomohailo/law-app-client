@@ -1,0 +1,81 @@
+.lawmarketLogo{
+  width: 80%;
+  margin-top: 5%;
+}
+.logo {
+  width: 7vw;
+}
+.logoCss {
+  font-weight: normal;
+}
+.logoHomeLink{
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+}
+.logoHomeLink:hover{
+  color:black;
+}
+
+.height {
+  height: 100vh;
+}
+
+.formSearch {
+  position: relative;
+  margin-top: 5%;
+}
+
+.formSearch .fa-search {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  color: #9ca3af;
+  cursor: pointer;
+}
+
+.formSearch .fa-search:hover{
+  color: #08b9e3;
+}
+
+.formSearch span {
+  position: absolute;
+  right: 17px;
+  top: 13px;
+  padding: 2px;
+  border-left: 1px solid #d1d5db;
+}
+
+.left-pan {
+  padding-left: 7px;
+}
+
+.left-pan i {
+  padding-left: 10px;
+}
+
+.formSearch-input {
+  height: 55px;
+  text-indent: 33px;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+
+.formSearch-input:focus {
+  box-shadow: none;
+  border: 1px solid black;
+}
+
+@media screen and (max-width: 600px) {
+  .logo {
+    width: 18vw;
+  }
+  .search {
+    display: none !important;
+  }
+  .lawmarketLogo{
+    width: 40%;
+    margin-top: 5%;
+  }
+}

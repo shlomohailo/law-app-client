@@ -1,0 +1,35 @@
+.servicesCards{
+    border-top:solid 1px rgba(0, 0, 0, 0.146);
+}
+
+.cardText {
+  -webkit-transform: rotate(-35deg);
+  -moz-transform: rotate(-35deg);
+  -o-transform: rotate(-35deg);
+  writing-mode: lr-tb;
+}
+
+.secondTitle{
+    position:absolute;
+    background-color: rgba(0, 0, 0, 0.489);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    top: 130px;
+    right: 0;
+    bottom: -8px;
+    left: 0;
+}
+
+@media  screen and (max-width: 600px) {
+    .secondTitle{
+        top:140px;
+    }
+    .createCard{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

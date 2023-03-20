@@ -1,0 +1,98 @@
+#iconStyle {
+  font-size: 4vw;
+}
+.SubServicesCard {
+  width: 100%;
+  height: 200px;
+  border-radius: 20px;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px #08b9e3 solid;
+}
+.SubServicesCard-img h1 {
+  font-size: 2vw;
+}
+
+.SubServicesCard-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 80%;
+}
+
+.SubServicesCard-body {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: -100%;
+  position: absolute;
+  backdrop-filter: blur(5px);
+  font-size: 70%;
+  color: black;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transition: 2s;
+}
+.SubServicesCard-body ul li {
+  font-size: 132%;
+}
+
+.SubServicesCard:hover .SubServicesCard-body {
+  right: 0;
+}
+
+.SubServicesCard-title {
+  text-transform: uppercase;
+  font-size: 50px;
+  font-weight: 500;
+}
+
+.SubServicesCard-sub-title {
+  text-transform: capitalize;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.SubServicesCard-info {
+  font-size: 16px;
+  line-height: 25px;
+  margin: 40px 0;
+  font-weight: 400;
+}
+
+.SubServicesCard-btn {
+  background-color: none;
+  text-transform: capitalize;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  font-size: 150%;
+  text-decoration: none;
+  color: black;
+}
+
+.SubServicesCard-btn:hover {
+  color: #08b9e3;
+}
+.pText {
+  font-weight: bold;
+}
+
+@media screen and (max-width: 600px) {
+  .SubServicesCard {
+    margin-bottom: 6%;
+  }
+}

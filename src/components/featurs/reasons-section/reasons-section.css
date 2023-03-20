@@ -1,0 +1,69 @@
+.main-container {
+  border-top: solid 1px rgba(0, 0, 0, 0.146);
+}
+
+/* #iconColor {
+  color: #08b9e3 !important;
+} */
+
+.reasonSectionImg {
+  width: 60%;
+  position: relative;
+}
+
+.reasonSectionCard {
+  position: absolute;
+  background-color: #1e4ba6;
+  color: white;
+  height: 40%;
+  width: 18%;
+  top: 200vh !important;
+  right: 0px;
+  bottom: 0px;
+  left: 726px !important;
+}
+
+#cardStarColor {
+  color: #ffd769;
+}
+@media screen and (max-width: 600px) {
+  .main-container {
+    display: flex;
+    flex-direction: column !important;
+  }
+  .reasonSectionImg {
+    width: 80%;
+    margin-top: 20%;
+  }
+  .reasonSectionCard {
+    display: none;
+    height: 33%;
+    width: 40%;
+    top: 3240px;
+    right: 0px;
+    bottom: 0px;
+    left: 6px;
+  }
+}
+
+@media screen and (min-width: 1500px) {
+  .reasonSectionCard {
+    height: 33%;
+    width: 15%;
+    top: 1490px !important;
+    right: 0px;
+    bottom: 0px;
+    left: 870px !important;
+  }
+}
+
+@media screen and (min-width: 1812px) {
+  .reasonSectionCard {
+    height: 33%;
+    width: 11%;
+    top: 1480px !important;
+    right: 0px;
+    bottom: 0px;
+    left: 1080px !important;
+  }
+}

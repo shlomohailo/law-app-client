@@ -1,0 +1,13 @@
+.heroSection {
+    border-top:solid 1px rgba(0, 0, 0, 0.146);
+}
+.heroSectionImg{
+    width: 100%;
+    border-radius: 15px 50px;
+}
+
+@media  screen and (max-width: 600px) {
+    .imgDiv{
+        display: none;
+    }
+}

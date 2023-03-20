@@ -1,0 +1,11 @@
+.profileNavPic{
+    width: 17%;
+    border-radius: 50px;
+}
+
+#dropdown-basic-button{
+    display: flex;
+    align-items: center;
+
+}
+

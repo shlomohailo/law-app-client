@@ -1,0 +1,71 @@
+.formBorder{
+    border: 1px solid rgba(139, 139, 139, 0.363);;
+}
+.imgAndText{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.imgAndText h3{
+    position: absolute;
+}
+
+.agreementImg{
+    width: 100%;
+    height:20vh;
+}
+
+.headtitle{
+    border-bottom: 1px solid rgba(139, 139, 139, 0.363);
+}
+
+.headtitle div{
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.headtitle div:hover{
+    border-bottom: 1px solid #08b9e3;
+    color:#08b9e3;
+}
+.bottomColor{
+    width:100%;
+    border-bottom: 1px solid rgba(139, 139, 139, 0.363);
+}
+
+  .typeStyle {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid rgba(139, 139, 139, 0.363);
+  }
+
+  .formBtn {
+    width: 30%;
+    background-color: #08b9e3; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 28px;
+    cursor: pointer;
+  }
+  
+  .formBtn {
+    color: white; 
+    border: 2px solid #08b9e3;
+  }
+  
+  .formBtn:hover {
+    background-color:White;
+    color: black;
+  }
+
+  @media  screen and (max-width:600px) {
+    .formBtn {
+        width: 50%;
+        }
+  }

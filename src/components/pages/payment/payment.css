@@ -1,0 +1,62 @@
+.borderDiv {
+    width: 100%;
+    border-bottom: 1px solid rgba(139, 139, 139, 0.363);
+  }
+  
+
+  .paymentBtn{
+    border: 0;
+    background-color:transparent;
+  }
+
+  .paypalBtn{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffc439;
+    width: 85%;
+    height: 6vh;
+    border: 0;
+    border-radius:10px;
+  }
+
+  .paypalBtn i{
+    font-size: 2vw;
+  }
+
+  .paypalBtn h4{
+    font-size: 2vw!important;
+  }
+
+  .placeOrder{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: green;
+    width: 85%;
+    height: 6vh;
+    border: 0;
+    border-radius:10px;
+    color:white;
+  }
+
+  .terms{
+    width: 80%;
+    font-size: 0.6rem;
+    justify-content: center;
+  }
+  
+  .section3col{
+    border: 1px solid rgba(139, 139, 139, 0.363);
+    height: 100%;
+}
+
+@media screen and (max-width :600px) {
+  .paypalBtn i{
+    font-size: 5vw!important;
+  }
+
+  .paypalBtn h4{
+    font-size: 5vw!important;
+  }
+}

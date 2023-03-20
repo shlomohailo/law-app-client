@@ -1,0 +1,35 @@
+.imgLogo{
+    width: 100% !important;
+}
+
+.signup-container{
+    overflow-x: hidden !important;
+}
+
+input {
+    height:5vh;
+}
+
+.imgClass{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.formClass{
+    position: absolute;
+}
+
+.imgClass img{
+    margin-bottom: 20%!important;
+}
+
+@media  screen and (max-width: 600px) {
+    .imgClass img{
+        width: 75%!important;
+        margin-bottom: 50%;
+    }
+}
